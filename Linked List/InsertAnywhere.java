@@ -75,7 +75,7 @@ class LinkedList{
     }
 
 }
-public class Main {
+class Main {
 
     public static void main(String[] args) {
     LinkedList a = new LinkedList();
