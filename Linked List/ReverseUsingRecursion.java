@@ -29,7 +29,7 @@ class LinkedList{
      reverselist(p.next);
      Node q = p.next;
      q.next = p;
-     //p.next = null;
+     p.next = null;
     }
     LinkedList insert(LinkedList x,int d){
         Node newNode = new Node(d);
