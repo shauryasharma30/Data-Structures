@@ -64,7 +64,7 @@ class dLinkedList {
         return x;
     }
 }
-public class Main {
+class Main {
 
     public static void main(String[] args) {
         dLinkedList a =new dLinkedList();
