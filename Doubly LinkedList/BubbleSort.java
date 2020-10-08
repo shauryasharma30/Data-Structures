@@ -51,7 +51,7 @@ class dLinkedList{
     }
         public static dNode bubbles(dNode head){
             int swaps = 0;
-            dNode p ;                        // iterator
+            dNode p ;                        // iterator FOR THE METHOD
             dNode lptr = null;
 
             if(head == null)
