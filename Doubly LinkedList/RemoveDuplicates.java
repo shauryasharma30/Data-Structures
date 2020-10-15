@@ -79,7 +79,7 @@ class dLinkedList{
             del.next.prev=del.prev;
         }
                                                /* Change prev only if node to be deleted
-                                               is NOT the first node */
+                                               is not the first node */
         if (del.prev != null)
             del.prev.next = del.next;
     }
