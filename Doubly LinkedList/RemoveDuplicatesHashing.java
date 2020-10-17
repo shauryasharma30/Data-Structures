@@ -96,7 +96,7 @@ class Main {
 
     public static void main(String[] args) {
 	dLinkedList a = new dLinkedList();
-	a.insert(a,1);a.insert(a,2);a.insert(a,2);a.insert(a,3);a.insert(a,3);a.insert(a,3);a.insert(a,4);a.insert(a,4);a.insert(a,1);
+	a.insert(a,1);a.insert(a,2);a.insert(a,2);a.insert(a,3);a.insert(a,3);a.insert(a,3);a.insert(a,4);a.insert(a,4);a.insert(a,2);
 	a.printlist(a.head);
 	a.removeDuplicates(a.head);
 	a.printlist(a.head);
